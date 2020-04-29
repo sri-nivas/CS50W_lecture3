@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Is it New Year?</title>
+    <style media="screen">
+      body{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    {% if new_year %}
+      <h1> Yes! Happy New Year!</h1>
+    {% else %}
+      <h1>No! Today is not New Year</h1>
+    {% endif %}
+    <br/>
+    <h1> Todays' date: {{ now }} </h1>
+  </body>
+</html>
